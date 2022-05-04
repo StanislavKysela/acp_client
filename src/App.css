@@ -1,0 +1,1008 @@
+h1{
+  font-size: 350%;
+}
+
+h2{
+  font-size: 280%;
+  text-align: center;
+  margin-bottom: 15%;
+  margin-left: 0%;
+}
+
+h3{
+  font-size: 200%;
+}
+
+h4{
+  font-size: 200%;
+  margin-bottom: 2%;
+  margin-top: 4%;
+  margin-left: 1%
+}
+
+h5{
+  font-size: 140%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+label{
+  font-size: 150%;
+  font-weight: bold;
+}
+
+textarea{
+  font-family: 'Arial', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 100%;
+  padding: 2%;
+  border: 2px solid #003959;
+  border-radius: 16px;
+}
+
+.TextAreaMandatory{
+  border: 0.5vh solid #003959;
+}
+
+.App {
+  height: 100vh;
+  background-color: white;
+  font-family: 'Arial', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ResultsPageFlexContainer{
+  /*background-color: #61dafb;*/
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.ResultsLeftBox{
+  flex: 25%;
+  /*background-color: aquamarine;*/
+  padding: 1%;
+  border-right: #4B37E4 0.5vh solid;
+}
+
+.ResultsRightBox{
+  flex: 75%;
+  /*background-color: red;*/
+  padding: 1%;
+}
+
+.ResultsSetParamsImputsContainer{
+  margin: 10%;
+}
+
+
+
+
+.OneDepartureFlexContainer, .OneConnectionBox{
+  display: flex;
+  flex-direction: row;
+  border-bottom: #CCCDD1 0.3vh solid;
+  align-items: center;
+}
+
+.DeparturePicture{
+  flex: 5%;
+  /*background-color: blanchedalmond;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.DepartureName{
+  flex: 23%;
+  /*background-color: blue;*/
+  font-size: 140%;
+  padding: 1%;
+}
+
+.DepartureNameVehicle{
+  color: #4B37E4;
+  font-weight: bold;
+}
+
+.DepartureVia{
+  flex: 70%;
+  /*background-color: blueviolet;*/
+  padding: 1%;
+  margin: auto;
+}
+
+.DepartureViaWider{
+  flex: 45%;
+  /*background-color: blueviolet;*/
+  padding: 1%;
+  margin: auto;
+}
+
+.DeparturePlatform{
+  flex: 15%;
+  /*background-color: brown;*/
+  font-size: 120%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.DepartureViaText{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.OperatorText{
+  font-size: 100%;
+}
+
+.DeparturePlatformText{
+  font-size: 140%;
+  font-weight: bold;
+  margin-left: 4%;
+}
+
+.DepartureTime{
+  margin: auto;
+  padding-left: 2%;
+  flex: 13%;
+  /*background-color: chartreuse;*/
+  font-size: 120%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.DepartureTimeTitle{
+  font-size: 140%;
+  margin-right: 4%;
+  font-weight: bold;
+  color: #4B37E4;
+}
+
+.DepartureDelayTitle{
+  font-size: 80%;
+  color:  #E03F64;
+}
+
+.DepartureWithPlatformContainer{
+  display: flex;
+  flex-direction: row;
+  flex: 47%;
+}
+
+
+
+
+
+
+.LineResultsContainer{
+  display: flex;
+  flex-direction: row;
+  height: 96vh;
+  /*background-color: teal;*/
+  align-items: center;
+}
+
+.LineResultsTimesBox{
+  /*background-color: tomato;*/
+  flex: 56%;
+  padding-left: 12%;
+
+}
+
+.LineResultsStationsBox{
+  /*background-color: thistle;*/
+  flex: 27%;
+  padding-left: 5%;
+}
+
+.OneHourDepartureContainer{
+  font-size: 140%;
+  /*background-color: teal;*/
+  display: flex;
+  flex-direction: row;
+}
+
+.OneHourDepartureHourTitle{
+  font-weight: bold;
+  flex: 20%;
+  text-align: end;
+  padding-right: 4%;
+  /*background-color: violet;*/
+}
+
+.OneHourDepartureHourTitleBlue{
+  font-weight: bold;
+  flex: 20%;
+  text-align: end;
+  padding-right: 4%;
+  color: #4B37E4;
+}
+
+.OneHourDepartureMinutesTitle{
+  flex:80%;
+  /*background-color: turquoise;*/
+}
+
+.OneHourDepartureMinutesTitleBlue{
+  flex:80%;
+  color: #4B37E4;
+}
+
+.LineResultsTimeBoxHeader{
+  display: flex;
+  flex-direction: row;
+  font-size: 190%;
+  font-weight: bold;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.LineResultsTimeBoxHeaderHourTitle{
+  flex: 20%;
+  text-align: end;
+  padding-right: 4%;
+}
+
+.LineResultsTimeBoxHeaderMinuteTitle{
+  flex: 80%;
+}
+
+.LineResultsTimesBoxDateTitle{
+  padding-left: 6%;
+  font-size: 190%;
+  font-weight: bold;
+  color: #69738B;
+}
+
+.OneStationDepartureContainer{
+  font-size: 140%;
+  /*background-color: teal;*/
+  display: flex;
+  flex-direction: row;
+}
+
+.OneStationDepartureMinuteTitle{
+  font-weight: bold;
+  flex: 30%;
+  text-align: end;
+  padding-right: 4%;
+  /*background-color: violet;*/
+}
+
+.OneStationDepartureMinuteTitleBlue{
+  font-weight: bold;
+  flex: 30%;
+  text-align: end;
+  padding-right: 4%;
+  color: #4B37E4;
+  /*background-color: violet;*/
+}
+
+.OneStationDepartureStationTitle{
+  flex: 66%;
+}
+
+.OneStationDepartureStationTitleBlue{
+  flex: 66%;
+  color: #4B37E4;
+  font-weight: bold;
+}
+
+.LineResultsStationBoxHeaderMinuteTitle{
+  flex: 30%;
+  text-align: end;
+  padding-right: 4%;
+  /*background-color: turquoise;*/
+}
+
+.LineResultsStationBoxHeaderStationTitle{
+  flex: 66%;
+  /*background-color: wheat;*/
+}
+
+.LineResultsNotes{
+  font-size: 110%;
+  margin-top: 2%;
+  margin-left: 4%;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+/*CONNECTION RESULTS*/
+
+.OneConnectionTitleBox{
+  /*background-color: teal;*/
+  flex: 23%;
+  font-size: 120%;
+  padding: 2%;
+  padding-left: 8%;
+}
+
+.OneConnectionDetailBox{
+  /*background-color: thistle;*/
+  flex: 69%;
+  margin-bottom: 2%;
+}
+
+.OneConnectionTitleBox-Date{
+  font-weight: bold;
+}
+
+.OneConnectionTitleBox-Time{
+  font-weight: bold;
+  font-size: 150%;
+  color: #4B37E4; 
+  margin-right: 2%;
+}
+
+.OneSubconnectionDetailBox-NotWalk{
+  display: flex;
+  direction: row;
+  align-items: center;
+}
+
+.SubconnectionDetailsSuggestionContainer{
+  display: flex;
+  direction: row;
+  align-items: center;
+  flex: 40%;
+}
+
+.SubconnectionDetailsWalkTime{
+  flex: 70%;
+}
+
+.OneSubconnectionDetailBox-Walk{
+  display: flex;
+  direction: row;
+  align-items: center;
+}
+
+.OneSubconnection-VehicleName{
+  flex: 30%;
+  font-weight: bold;
+  color: #4B37E4;
+  font-size: 130%;
+  padding-left: 8%;
+  padding-right: 2%;
+}
+
+.OneSubconnection-VehicleDetails{
+  flex: 60%;
+}
+
+.OneSubconnectionDetailBox-Walk{
+  font-style: italic;
+  margin-left: 14%;
+}
+
+.OneSubconnectionDetailBox-NotWalk{
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+}
+
+.OneSubconnectionOneDetailBox{
+  display: flex;
+  flex-direction: row;
+}
+
+.OneSubconnectionOneDetailBox-Time{
+  flex: 15%;
+  font-weight: bold;
+  color: #2B3467;
+  font-size: 120%;
+}
+
+.OneSubconnectionOneDetailBox-Station{
+  flex: 85%;
+  font-weight: bold;
+  font-size: 120%;
+  display: flex;
+  flex-direction: row;
+}
+
+.OneSubconnectionOneDetailBox-Platform{
+  margin-left: 4%;
+  font-size: 90%;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.OneSubconnectionDetailBox-DetailsLink{
+  margin-right: 6%;
+  font-weight: bold;
+  color: #2B3467;
+}
+
+
+
+
+
+
+/*CONNECTION DETAILS*/
+
+.ConnectionDetailsFlexContainer{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.ConnectionDetailsSummary{
+  flex: 50%;
+  border-right: #4B37E4 0.5vh solid;
+}
+
+.ConnectionDetailsSubconnection{
+  flex: 50%;
+  text-align: center;
+}
+
+.ConnectionDetailsSummaryTitle{
+  text-align: center;
+  font-size: 150%;
+  margin-bottom: 5%;
+}
+
+.ConnectionDetailsTimeDateFlexContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.TitleConnectionDetails{
+  margin-bottom: 5%;
+}
+
+.BackToConnectionsSummaryButtonContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.ConnectionDetailsSubconnection_Owner{
+  font-size: 120%;
+}
+
+.ConnectionDetailsSubconnection_LastStation{
+  font-size: 150%;
+  font-weight: bold;
+  margin: 1%;
+}
+
+.ConnectionDetailsSubconnection_Name{
+  color: #4B37E4;
+}
+
+.ConnectionDetailsSubconnectionOneStationBox{
+  display: flex;
+  flex-direction: row;
+  font-size: 130%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+
+.ConnDetOneStationBox-Time{
+  flex: 15%;
+  color: #2B3467;
+  font-weight: bold;
+}
+
+.ConnDetOneStationBox-Station{
+  flex: 45%;
+  text-align: start;
+}
+
+.ConnDetOneStationBox-StationBold{
+  flex: 45%;
+  text-align: start;
+  font-weight: bold;
+}
+
+.ConnDetOneStationBox-Request{
+  flex: 15%;
+  font-style: italic;
+  font-size: 90%;
+  color: #4B37E4;
+}
+
+.ConnDetOneStationBox-Distance{
+  flex: 15%;
+}
+
+.ConnDetOneStationBox-DistanceBold{
+  flex: 15%;
+  font-weight: bold;
+}
+
+.ConnectionDetailsSubconnectionTableHeader{
+  display: flex;
+  align-items: row;
+  font-size: 130%;
+  margin: 2%;
+  font-weight: bold;
+  border-bottom: #CCCDD1 0.3vh solid;
+}
+
+.ConnDetTableHeader-Time{
+  flex: 15%;
+  text-align: center;
+}
+
+.ConnDetTableHeader-Station{
+  flex: 60%;
+  text-align: start;
+}
+
+.ConnDetTableHeader-Distance{
+  flex: 15%;
+}
+
+
+
+
+
+
+/*SEARCH PAGES*/
+
+.DeparturesSearch, .LineSearch{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.SearchPageHeader{
+  /*background-color: #61dafb;*/
+  flex: 20%;
+  display: flex;
+  flex-direction: row;
+}
+
+.SearchPageForm{
+  /*background-color: aquamarine;*/
+  flex: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.SearchPageHeaderBox{
+  flex: 50%;
+  text-align: center;
+  margin: auto;
+  padding: 1%;
+  /*background-color: chartreuse;*/
+}
+
+.SearchPageFormRightBox{
+  flex: 50%;
+  margin: 2%;
+  /*background-color: chocolate;*/
+}
+
+.SearchPageFormLeftBox{
+  flex: 48%;
+  margin-top: 2%;
+  margin-left: 8%;
+  /*background-color: chocolate;*/
+}
+
+.VehicleFormComponent, .StationFormComponent, .DeparturesRatioFormComponent, .MaxTransportsFormComponent{
+  /*background-color: cornsilk;*/
+  margin-top: 2%;
+}
+
+.DateFormComponent, .TimeFormComponent, .CheckboxComponent{
+  margin-top: 4%;
+}
+
+.TextInputContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.TextInputLabelRes{
+  margin: 2%;
+}
+
+.VoiceCommandSuggestion{
+  color: #003959;
+  font-weight: normal;
+  font-style: italic;
+  margin-left: 2%;
+  flex: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.VoiceCommandSuggestionUnder{
+  color: #003959;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 150%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.VoiceCommandSuggestionResUnder{
+  color: #003959;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 80%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.VerticalFormComponentName{
+  width: 15%;
+}
+
+.VerticalFormComponentNameRes{
+  width: 25%
+}
+
+input[type='checkbox']{
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 24px;
+  height: 24px;
+}
+
+input[type='radio']{
+  margin: 2%;
+  margin-right: 10%;
+}
+
+input[type='radio']:after {
+  width: 120%;
+  height: 120%;
+  border-radius: 200%;
+  top: -40%;
+  left: -15%;
+  position: relative;
+  background-color: white;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 3px solid #4B37E4;
+}
+
+input[type='radio']:checked:after {
+  width: 140%;
+  height: 140%;
+  border-radius: 200%;
+  top: -45%;
+  left: -15%;
+  position: relative;
+  background-color: #4B37E4;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 3px solid lightgray;
+}
+
+.ShowResultsButton{
+  margin-left: 10%;
+  margin-top: 10%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border: 0px;
+  border-radius: 16px;
+  background-image: linear-gradient(to right, #2c1e94, #4B37E4);
+  color: white;
+}
+
+.ShowResultsResButton{
+  margin: auto;
+  margin-top: 10%;
+  padding-left: 4%;
+  padding-right: 4;
+  border: 0px;
+  border-radius: 16px;
+  background-image: linear-gradient(to right, #2c1e94, #4B37E4);
+  color: white;
+}
+
+.RedirectButton{
+  margin: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border: 0px;
+  border-radius: 16px;
+  background-image: linear-gradient(to right, #4B37E4 , #69738B);
+  color: white;
+  font-size: 70%;
+}
+
+.HomeButton{
+  margin: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border: 0px;
+  border-radius: 16px;
+  background-color: #c98449;
+  color: white;
+  font-size: 70%;
+}
+
+.TukeDeparturesButton{
+  margin-left: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border: 0px;
+  border-radius: 16px;
+  background-color: #c98449;
+  color: white;
+  font-size: 70%;
+}
+
+.ShowResultsContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.ErrorMandatoryShowResults{
+  margin-top: 12%;
+  margin-left: 4%;
+  font-size: 150%;
+  font-weight: bold;
+  color: #E03F64;
+}
+
+.ErrorMandatoryShowResResults{
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-size: 150%;
+  font-weight: bold;
+  color: #E03F64;
+  text-align: center;
+}
+
+
+
+
+
+
+/*INDEX PAGE*/
+
+.IndexPage{
+  display: flex;
+  flex-direction: row;
+  /*background-color: turquoise;*/
+  height: 100vh;
+}
+
+.IndexLeftBox{
+  flex: 50%;
+  /*background-color: tomato;*/
+  display: flex;
+  flex-direction: column;
+  border-right: #003959 0.5vh solid;
+}
+
+.IndexRightBox{
+  flex: 50%;
+  /*background-color: teal;*/
+  display: flex;
+  flex-direction: column;
+}
+
+.IndexTopLeftBox{
+  flex: 48%;
+  /*background-color: tomato;*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 2%;
+  margin-bottom: 0;
+  margin-right: 3%;
+}
+
+.IndexBottomLeftBox{
+  flex: 48%;
+  /*background-color: teal;*/
+  margin: 2%;
+  margin-right: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.IndexTopRightBox{
+  flex: 48%;
+  /*background-color: tomato;*/
+  margin: 2%;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.IndexBottomRightBox{
+  flex: 48%;
+  /*background-color: teal;*/
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.VoiceSuggestionContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 150%;
+  /*background-color: turquoise;*/
+  width: 100%;
+}
+
+.VoiceSuggestionTitle{
+  font-weight: bold;
+  margin-right: 2%;
+}
+
+.VoiceSuggestionText{
+  color:  #003959;
+  font-style: italic;
+}
+
+.SearchButtonContainerHomepage{
+  /*background-color: violet;*/
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ShowResultsButtonHomepage{
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border: 0px;
+  border-radius: 16px;
+  background-image: linear-gradient(to right, #2c1e94, #4B37E4);
+  color: white;
+}
+
+.ErrorMandatoryShowResultsHomepage{
+  margin-top: 7%;
+  margin-right: 4%;
+  font-size: 150%;
+  font-weight: bold;
+  color: #E03F64;
+}
+
+.CPInfo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 16%;
+  font-size: 100%;
+}
+
+.CPInfoText{
+  margin-right: 1%;
+}
+
+
+/*ERROR MESSAGE PAGE*/
+
+.ErrorMessageContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.PrimaryErrorMessage{
+  flex: 32%;
+  font-size: 200%;
+  font-weight: bold;
+  text-align: end;
+  padding: 2%;
+  color: #E03F64;
+}
+
+.SecondaryErrorMessage{
+  flex: 68%;
+  padding: 3%;
+  font-size: 150%;
+}
+
+/*PICTURES*/
+
+.PictureArrow{
+  padding: 1.5%;
+}
+
+.PictureMic{
+  padding-right: 4%;
+}
+
+.PictureMicUnder{
+  padding-right: 2%;
+}
+
+
+.FlexRowContailer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+/*NOMATCH*/
+
+
+.NoMatch{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16%;
+}
+
+.NoMatchLeft{
+  flex: 50%;
+  text-align: end;
+  margin: 2%;
+}
+
+.NoMatchRight{
+  flex: 50%;
+  margin-left: 8%;
+}
