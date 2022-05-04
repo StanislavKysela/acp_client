@@ -1,3 +1,5 @@
+Frontend application for ACP (Aplikacia cestovnych poriadkov). Available there: https://salty-wave-27068.herokuapp.com/ (JavaScript React)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
